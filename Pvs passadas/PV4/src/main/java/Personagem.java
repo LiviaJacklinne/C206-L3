@@ -8,7 +8,10 @@ public abstract class Personagem
 
     public void mostraInfo()
     {
-
+        System.out.println("ID: " + getId());
+        System.out.println("Nome: " + getNome());
+        System.out.println("Poder: " + getPoder());
+        System.out.println(" ");
     }
     public abstract void travarBatalha();
 

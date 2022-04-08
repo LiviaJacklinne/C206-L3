@@ -12,9 +12,9 @@ public class Droid extends Personagem
     public void travarBatalha()
     {
         if(hostil)
-            System.out.println(getNome() + "travou uma batalha contra um Jedi");
+            System.out.println(getNome() + " travou uma batalha contra um Jedi");
         else
-            System.out.println(getNome() + "travou uma batalha contra um sith");
+            System.out.println(getNome() + " travou uma batalha contra um Sith");
 
     }
 

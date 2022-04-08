@@ -7,7 +7,7 @@ public class Jedi extends Personagem implements Treinamento, Forca
     public void usarForca()
     {
         int aux;
-        System.out.println(getNome() + " usou a força para o bem");
+        System.out.println(getNome() + " usou a forca para o bem");
         aux = getPoder() + 5;
         setPoder(aux);
     }
@@ -15,7 +15,7 @@ public class Jedi extends Personagem implements Treinamento, Forca
     @Override
     public void trocarSabre(String cor)
     {
-        this.sabre.setCor(cor);
+
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Jedi extends Personagem implements Treinamento, Forca
         if(mestre || getPoder() > 70)
             System.out.println(getNome() + " treinou um Padawan");
         else
-            System.out.println(getNome() + " ainda não consegue treinar padawans");
+            System.out.println(getNome() + " ainda nao consegue treinar padawans");
 
     }
 
@@ -32,7 +32,7 @@ public class Jedi extends Personagem implements Treinamento, Forca
     public void travarBatalha()
     {
         int aux;
-        System.out.println(getNome() + "travou uma batalha contra um sith");
+        System.out.println(getNome() + " travou uma batalha contra um sith");
         aux = getPoder() + 1;
         setPoder(aux);
     }
@@ -41,6 +41,6 @@ public class Jedi extends Personagem implements Treinamento, Forca
     public boolean isMestre() {return mestre;}
     public void setMestre(boolean mestre) {this.mestre = mestre;}
     public Sabre getSabre() {return sabre;}
-    public void setSabre(Sabre sabre) {this.sabre = sabre;}
+    public void setSabre() {this.sabre = sabre;}
 
 }
