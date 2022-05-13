@@ -1,0 +1,35 @@
+Pedido
+2
+bambu
+15.0
+40.0
+Pedido
+1
+ype
+15.0
+30.0
+Pedido
+2
+bambu
+10.0
+20.0
+Pedido
+3
+Pau Brasil
+35.0
+50.0
+Pedido
+1
+ype
+15.0
+30.0
+Pedido
+3
+Pau Brasil
+35.0
+50.0
+Pedido
+2
+bambu
+10.0
+20.0
